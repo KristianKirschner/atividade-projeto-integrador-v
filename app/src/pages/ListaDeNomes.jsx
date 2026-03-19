@@ -14,6 +14,11 @@ export default function ListaDeNomes() {
         setNomes([...nomes, novoItem]);
     }
 
+    const remover = (index) => {
+        const nomesAtualizado = nomes.filter((_, i) => i !== index);
+        setNomes(nomesAtualizado);
+    };
+
 
     return (
         <div>

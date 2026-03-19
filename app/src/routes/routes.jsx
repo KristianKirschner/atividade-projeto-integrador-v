@@ -6,6 +6,10 @@ import CampoNomeDinamico from "../pages/CampoNomeDinamico"
 import CadastroSimples from "../pages/CadastroSimples"
 import ListaDeNomes from "../pages/ListaDeNomes"
 import ListaDeNomesRemocao from "../pages/ListaDeNomesRemocao"
+import ComponentizacaoDaLista from "../pages/ComponentizacaoDaLista"
+import CadastroCompleto from "../pages/CadastroCompleto"
+import ContadorHistorico from "../pages/ContadorHistorico"
+import DesafioFinal from "../pages/DesafioFinal"
 
 export default function Rotas() {
   return (
@@ -16,7 +20,11 @@ export default function Rotas() {
         <Route path="/campoNomeDinamico" element={<CampoNomeDinamico />} />
         <Route path="/cadastroSimples" element={<CadastroSimples />} />
         <Route path="/listaDeNomes" element={<ListaDeNomes />} />
-        <Route path="/listaDeNomesRemocao" element={<ListaDeNomesRemocao />} />        
+        <Route path="/listaDeNomesRemocao" element={<ListaDeNomesRemocao />} />
+        <Route path="/componentizacaoDaLista" element={<ComponentizacaoDaLista />} />  
+        <Route path="/cadastroCompleto" element={<CadastroCompleto />} />
+        <Route path="/contadorHistorico" element={<ContadorHistorico />} />  
+        <Route path="/desafioFinal" element={<DesafioFinal />} />  
       </Routes>
     </BrowserRouter>
   );
