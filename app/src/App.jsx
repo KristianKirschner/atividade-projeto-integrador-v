@@ -1,24 +1,5 @@
-import './App.css'
-import Titulo from './components/Titulo'
-import Aluno from './components/Aluno'
-import Botao from './components/Botao'
-import Pessoas from './components/Pessoas'
+import Rotas from "./routes/routes";
 
-
-function App() {
-
-  return (
-    <>
-      <div>
-        <Titulo />
-        <Aluno />
-        <Botao />
-        <hr></hr>
-        <Pessoas/>
-      </div>
-
-    </>
-  )
+export default function App() {
+  return <Rotas />;
 }
-
-export default App
