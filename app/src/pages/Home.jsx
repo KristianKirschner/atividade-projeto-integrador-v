@@ -14,6 +14,7 @@ export default function Home() {
       <Link to="/cadastroCompleto">Cadastro completo</Link><br/> 
       <Link to="/contadorHistorico">Contador com historico</Link><br/> 
       <Link to="/desafioFinal">Desafio Final</Link><br/>       
+      <Link to="/formulario">Formulario</Link><br/>  
     </div>
   );
 }

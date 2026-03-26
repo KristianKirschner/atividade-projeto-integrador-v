@@ -10,6 +10,7 @@ import ComponentizacaoDaLista from "../pages/ComponentizacaoDaLista"
 import CadastroCompleto from "../pages/CadastroCompleto"
 import ContadorHistorico from "../pages/ContadorHistorico"
 import DesafioFinal from "../pages/DesafioFinal"
+import Formulario from "../pages/Formulario";
 
 export default function Rotas() {
   return (
@@ -24,7 +25,8 @@ export default function Rotas() {
         <Route path="/componentizacaoDaLista" element={<ComponentizacaoDaLista />} />  
         <Route path="/cadastroCompleto" element={<CadastroCompleto />} />
         <Route path="/contadorHistorico" element={<ContadorHistorico />} />  
-        <Route path="/desafioFinal" element={<DesafioFinal />} />  
+        <Route path="/desafioFinal" element={<DesafioFinal />} /> 
+        <Route path="/formulario" element={<Formulario />} />  
       </Routes>
     </BrowserRouter>
   );
